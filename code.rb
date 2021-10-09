@@ -114,6 +114,4 @@ end
 
 liste = [1, 2, 3, 4 ,5,6,7, 3]
 
-# liste.my_each { |i| puts i }
-# liste.my_each_with_index { |e, i| puts"#{i} #{e}"}
 puts liste.my_map{|x| x+1}
